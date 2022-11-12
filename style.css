@@ -20,6 +20,7 @@ body{
     border-radius: 10px;
     align-items: center;
     width: 300px;
+    max-width: 300px;
     aspect-ratio: 2/1;
     border: 2px solid ;
     background-image: linear-gradient(to right, #f8f8f8, #bebbbf, #8a8186, #5a4c4f, #2d1c1c);
@@ -32,7 +33,7 @@ body{
 
 }
 .name{
-background-color: black;
+background-color: rgb(0, 0, 0);
 display: flex;
 justify-content: center;
 margin: auto;
@@ -49,4 +50,7 @@ overflow: hidden;
 } 
 p{
     margin: 3%;
+}
+.container2{
+    color: black;
 }
